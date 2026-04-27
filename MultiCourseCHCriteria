@@ -1,0 +1,10 @@
+public class MultiCourseCHCriteria extends CreditHourCriteria{
+
+    private MultiCourseCriteria MCC;
+
+    public MultiCourseCHCriteria(String criteria, int limit, boolean required, int priority ArrayList<String> courses, int selection){
+        super(criteria, limit, required, priority);
+    }
+
+
+}
